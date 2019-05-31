@@ -8,6 +8,8 @@ public class App {
         return "Hello world.";
     }
 
+    //method to pull in args and create a new instance of Bitmap
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
     }
